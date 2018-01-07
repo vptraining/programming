@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg2381" viewBox="0 0 35.27 52.508" version="1.0">
+  <g id="layer1" fill-rule="evenodd" stroke="#000" stroke-width="0.41009px" transform="translate(-13.361 -5.3311)">
+    <path id="path2385" fill="#ff0015" d="m 34.388 20.066 c -0.438 1.752 -14.501 15.152 -20.822 37.315 c 5.094 3.438 33.842 -29.217 33.842 -29.217 l -6.923 -6.431 l -6.097 -1.667 Z" />
+    <path id="path3157" fill="#87ff00" d="m 34.649 19.584 c 2.46 -3.018 4.731 -1.655 7.024 -0.804 c 2.859 0.858 4.377 -3.835 5.42 -10.496 c -2.182 0.7599 -2.537 -0.7096 -3.371 -1.5936 l 1.92 -1.1543 c 0.837 0.1255 1.67 0.1111 2.533 1.4265 c 0.268 1.6933 0.771 6.5224 -2.726 13.699 c 2.672 1.853 4.937 4.699 0.326 9.464 l -0.667 -3.348 l -3.274 1.988 l -0.622 -4.088 l -3.755 2.408 l 0.038 -4.47 l -3.665 1.643 l 0.819 -4.675 Z" />
+  </g>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work xmlns:cc="http://creativecommons.org/ns#">
+        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+        <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">red chili with green tail</dc:title>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2008-05-19T11:07:21</dc:date>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">a red chili with green tail made with inkscape for open source project "sshili"</dc:description>
+        <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">http://openclipart.org/detail/16863/red-chili-with-green-tail-by-sebek</dc:source>
+        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <cc:Agent>
+            <dc:title>sebek</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <rdf:Bag>
+            <rdf:li>cartoon</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>food</rdf:li>
+            <rdf:li>hot</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>spice</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>vegetable</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License xmlns:cc="http://creativecommons.org/ns#" rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

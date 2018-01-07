@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Elemente formular</title>
+</head>
+
+<body>
+
+<h1>Elemente HTML de formular</h1>
+<h2>Testati in diferite browsere</h2>
+
+<form>
+
+Ce marca de masina preferati ?<br/>
+<input id="c1" type="radio" name="masina" value="dacia" checked="checked" /><label for="c1"> Dacia</label><br/>
+<input id="c2" type="radio" name="masina" value="bmw" /><label for="c2"> BMW</label><br/>
+<input id="c3" type="radio" name="masina" value="opel" /><label for="c3"> Opel</label><br/>
+
+Ce model preferati ?<br/>
+<input id="c4" type="checkbox" name="model1" value="Seria 3" checked="checked"/><label for="c4"> Seria 3</label><br/>
+<input id="c5" type="checkbox" name="model2" value="M5"/><label for="c5"> M5</label><br/>
+<label for="c6">Ce culoare preferati ? </label><br/>
+<input id="c6" type="color" name="culoare"/><br/>
+<label for="c7">Adresa de email:</label><br/>
+<input id="c7" type="email" name="email"/><br/>
+<label for="c8">Cand v-ati nascut?</label><br/>
+<input id="c8" type="date" name="data_nastere"/>Data nastere<br/>
+
+<input id="c9" type="range" name="r"/><label for="c9">Numar</label><br/>
+
+<label for="c10">Ce marca preferati ?</label><br/>
+<select  id="c10" name="marca1">
+	<option value="1">Dacia</option>
+    <option value="2">BMW</option>
+    <option value="3">Opel</option>
+</select>
+<br/>
+
+<label for="c11">Comentariu:</label><br/>
+<textarea id="c11" name="comentariu" rows="10" cols="80"></textarea>
+<br/>
+
+<input type="submit" value="Trimite"/>
+</form>
+
+</body>
+</html>

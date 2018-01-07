@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Coffee</title>
+<style>
+
+body {
+	background-color: #754934;
+}
+
+.box_pizza {
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 4px;
+	width: 300px;
+}
+
+.box_pizza .img1 {
+	width: 100%;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.box_pizza .nume {
+	font:24px Arial;
+	color:darkred;
+	text-align: right;
+	padding:0;
+	padding-right: 20px;
+	margin: 20px;
+}
+
+.box_pizza .pret {
+	font:18px Arial;
+	color: gray;
+	text-align: right;
+	padding:0;
+	padding-right: 20px;
+	margin:20px;
+	margin-top:0;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box_pizza">
+
+	<img class="img1" src="pexels-photo-263041.jpeg"/>
+
+	<p class="nume">Pizza</p>
+	<p class="pret">10 RON</p>
+	
+
+</div>
+
+<p style="color:white; text-weight:bold; margin:30px;">* Se recomanda ca diferitele elemente de interfata sa fie lucrate in fisiere separate si apoi unite in fisierul final.</p>
+
+</body>
+

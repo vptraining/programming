@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Pizza</title>
+<style>
+
+body {
+	background-color: #754934;
+}
+
+.box_pizza {
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 4px;
+	width: 300px;
+}
+
+.box_pizza .img1 {
+	width: 100%;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.box_pizza .nume {
+	font:24px Arial;
+	color:darkred;
+	text-align: right;
+	padding:0;
+	padding-right: 20px;
+	margin: 20px;
+}
+
+.box_pizza .pret {
+	font:18px Arial;
+	color: gray;
+	text-align: right;
+	padding:0;
+	padding-right: 20px;
+	margin:20px;
+	margin-top:0;
+}
+
+.box_pizza .hot {
+	width:0px;
+	height:0px;
+}
+
+.box_pizza .img2 {
+	width: 30px;
+	top: -200px;
+	left: 250px;
+	position: relative;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box_pizza">
+
+	<img class="img1" src="pexels-photo-263041.jpeg"/>
+
+	<div class="hot">
+		<img class="img2" src="sebek_red_chili_with_green_tail.svg"/>
+	</div>
+
+	<p class="nume">HOT Pizza</p>
+	<p class="pret">10 RON</p>
+	
+
+</div>
+
+<p style="color:white; text-weight:bold; margin:30px;">* Se recomanda ca diferitele elemente de interfata sa fie lucrate in fisiere separate si apoi unite in fisierul final.</p>
+<p style="color:white; text-weight:bold; margin:30px;">* Imaginile SVG sunt recomandate pentru elemente tip "ICON" deoarece pot fi redimensionate fara pierderea calitatii.</p>
+
+</body>
+

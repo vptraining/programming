@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Pizza</title>
+<style>
+
+body {
+	background-color: #754934;
+}
+
+.box_pizza {
+	display: inline-block;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 4px;
+	width: 300px;
+	margin:10px;
+}
+
+.box_pizza .img1 {
+	width: 100%;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.box_pizza .nume {
+	font:24px Arial;
+	color:darkred;
+	text-align: right;
+	padding:0;
+	padding-right: 20px;
+	margin: 20px;
+}
+
+.box_pizza .pret {
+	font:18px Arial;
+	color: gray;
+	text-align: right;
+	padding:0;
+	padding-right: 20px;
+	margin:20px;
+	margin-top:0;
+}
+
+.box_pizza .hot {
+	width:0px;
+	height:0px;
+}
+
+.box_pizza .img2 {
+	width: 30px;
+	top: -200px;
+	left: 250px;
+	position: relative;
+}
+
+.container {
+	max-width: 966px;
+	min-width: 322px;
+	font-size:0;
+	margin:auto;
+	text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="box_pizza">
+	<img class="img1" src="pizza1.jpeg"/>
+	<p class="nume">Pizza Tip 1</p>
+	<p class="pret">15 RON</p>
+</div>
+
+<div class="box_pizza">
+	<img class="img1" src="pizza2.jpeg"/>
+	<p class="nume">Pizza Tip 2</p>
+	<p class="pret">20 RON</p>
+</div>
+
+<div class="box_pizza">
+	<img class="img1" src="pizza3.jpeg"/>
+
+	<div class="hot">
+		<img class="img2" src="sebek_red_chili_with_green_tail.svg"/>
+	</div>
+
+	<p class="nume">HOT Pizza Tip 1</p>
+	<p class="pret">20 RON</p>
+</div>
+
+<div class="box_pizza">
+	<img class="img1" src="pizza4.jpeg"/>
+
+	<div class="hot">
+		<img class="img2" src="sebek_red_chili_with_green_tail.svg"/>
+	</div>
+
+	<p class="nume">HOT Pizza Tip 2</p>
+	<p class="pret">20 RON</p>
+</div>
+
+<div class="box_pizza">
+	<img class="img1" src="pizza5.jpeg"/>
+	<p class="nume">Pizza Tip 3</p>
+	<p class="pret">22 RON</p>
+</div>
+
+<div class="box_pizza">
+	<img class="img1" src="pizza6.jpeg"/>
+	<p class="nume">Pizza Tip 4</p>
+	<p class="pret">20 RON</p>
+</div>
+
+</div>
+
+<p style="color:white; text-weight:bold; margin:30px;">* Se recomanda ca diferitele elemente de interfata sa fie lucrate in fisiere separate si apoi unite in fisierul final.</p>
+<p style="color:white; text-weight:bold; margin:30px;">* Imaginile SVG sunt recomandate pentru elemente tip "ICON" deoarece pot fi redimensionate fara pierderea calitatii.</p>
+<p style="color:white; text-weight:bold; margin:30px;">* Box-urile reprezentand produsele se introduc intr-un element "container".</p>
+
+</body>
+
