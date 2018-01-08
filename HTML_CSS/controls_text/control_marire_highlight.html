@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marire control la click</title>	
+<style>
+
+.marire {
+	width: 150px;
+	border: 1px solid blue;
+	margin: 10px;
+}
+
+.marire:focus {
+	width: 300px;
+	transition-duration: 1s;
+}
+
+.marire:hover {
+	box-shadow: 2px 2px 10px orange;
+}
+
+</style>
+</head>
+
+<body>
+
+<input type="text" class="marire" />
+
+<p>Se utilizeaza pseudo selectorii :focus si :hover</p>
+
+</body>
+</html>
+

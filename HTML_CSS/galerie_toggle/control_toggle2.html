@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Control Galerie Toggle</title>
+
+<style>
+
+.galerie {
+	display: block;
+	height: 500px;
+	width: 700px;
+	margin:auto;
+	font-size:0px;
+}
+
+.galerie input {
+	display: none;
+}
+
+.galerie label {
+	padding: 6px;
+	display: inline-block;
+}
+
+.galerie .imagine_mare {
+	display:none;
+	position: absolute;
+}
+
+.galerie .thumb {
+	padding: 6px;
+}
+
+.galerie input[type="radio"]:checked+label .thumb {
+	border:3px solid blue;
+	margin-bottom: 3px;
+	padding: 3px;
+	border-radius: 6px;
+}
+
+.galerie input[type="radio"]:checked+label .imagine_mare {
+	display: inline-block;
+}
+
+.galerie .i1 {
+	position: relative;
+	left: 6px;
+}
+
+.galerie .i2 {
+	position: relative;
+	left: -118px; /* dimensiune_thumb + 2*padding_thumb + 2*border_thumb + padding_label = 100 + 2*3 + 2*3 + 6 = 118px */
+}
+
+.galerie .i3 {
+	position: relative;
+	left: -242px; /* 118 + dimensiune_thumb + 2*padding_thumb + 2*border_thumb + padding_label + padding_thumb + border_thumb = 118 + 100 + 24 = 242px */
+}
+
+.galerie .i4 {
+	position: relative;
+	left: -366px; /* 242 + 100 + 24 = 366px */
+}
+
+.galerie .i5 { /* Aceasta clasa nu este utilizata in exemplu */
+	position: relative;
+	left: -490px; /* 366 + 100 + 24 = 490px */
+}
+
+
+</style>
+
+</head>
+<body>
+
+<h1 align="center">Galerie realizata pe acelasi principiu cu Control TOGGLE</h1>
+
+<div class="galerie">
+	<!-- Element galerie -->
+	<input type="radio" name="galerie" id="g1" checked="checked"/>
+	<label for="g1">
+		<img class="thumb" src="pexels-photo-290595.jpeg" width="100px" /><br/>
+		<div class="imagine_mare">
+			<img src="pexels-photo-290595.jpeg" class="i1" />
+		</div>
+	</label>
+
+	<!-- Element galerie -->
+	<input type="radio" name="galerie" id="g2"/>
+	<label for="g2">
+		<img class="thumb" src="pexels-photo-367192.jpeg" width="100px"/><br/>
+		<div class="imagine_mare">
+			<img src="pexels-photo-367192.jpeg" class="i2" />
+		</div>
+	</label>
+
+	<!-- Element galerie -->
+	<input type="radio" name="galerie" id="g3"/>
+	<label for="g3">
+		<img class="thumb" src="pexels-photo-618403.jpeg" width="100px"/><br/>
+		<div class="imagine_mare">
+			<img src="pexels-photo-618403.jpeg" class="i3" />
+		</div>
+	</label>
+
+	<!-- Element galerie -->
+	<input type="radio" name="galerie" id="g4"/>
+	<label for="g4">
+		<img class="thumb" src="pexels-photo-650222.jpeg" width="100px"/><br/>
+		<div class="imagine_mare">
+			<img src="pexels-photo-650222.jpeg" class="i4" />
+		</div>
+	</label>
+
+</div>
+
+<p>Se utilizeaza o abordare pur HTML/CSS (fara JavaScript).</p>
+<p>Controlul este de fapt format din label-urile aferente la doua input-uri de tip "radio" cu acelasi name. Se pot adauga oricate imagini.</p>
+<p>Se recomanda utilizarea de imagini cu aceeasi dimensiune (atat pentru thumbnail cat si pentru imaginea mare). In exemplu au fost utilizate imagini cu dimensiuni diferite.</p>
+<p>Selectorul CSS utilizat este de forma: <b>.galerie input[type="radio"]:checked+label</b></p>
+
+</body>
+</html>
+

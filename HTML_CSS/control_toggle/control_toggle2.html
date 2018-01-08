@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Control Toggle</title>
+
+<style>
+
+.onoff {
+	border: 1px solid gray;
+	border-radius: 4px;
+	display:inline-block;
+	background-color:lightgray;
+}
+
+.onoff input {
+	display: none;
+}
+
+.onoff label {
+	padding: 6px;
+	border-radius:5px;
+}
+
+.onoff input[type="radio"]:checked+label {
+	background-color: white;
+	border:1px solid black;
+	border-radius: 30px;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1 align="center">Control TOGGLE - varianta 2</h1>
+
+<div class="onoff">
+	<input type="radio" name="onoff" id="on" checked="checked"/><label for="on">&nbsp;&nbsp;</label>
+	<input type="radio" name="onoff" id="off"/><label for="off">&nbsp;&nbsp;</label>
+</div>
+
+<p>Se utilizeaza o abordare pur HTML/CSS (fara JavaScript).</p>
+<p>Controlul este de fapt format din label-urile aferente la doua input-uri de tip "radio" cu acelasi name.</p>
+<p>Selectorul CSS utilizat este de forma: <b>.onoff input[type="radio"]:checked+label</b></p>
+
+</body>
+</html>
+
